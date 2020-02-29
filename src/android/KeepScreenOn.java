@@ -17,8 +17,8 @@ public class KeepScreenOn extends CordovaPlugin {
 			System.out.println("Start KeepScreenOn");
 			cordova.getActivity().runOnUiThread(new Runnable() {
 	            public void run() {
-	            	cordova.getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-    				System.out.println("Screen will be kept on. KeepScreenOn");
+	            	cordova.getActivity().getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON|WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD|WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED|WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
+	            	System.out.println("Screen will be kept on. KeepScreenOn");
 	            }
 	        });
             //cordova.getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
@@ -28,7 +28,7 @@ public class KeepScreenOn extends CordovaPlugin {
 			System.out.println("CancelKeepScreenOn");
 			cordova.getActivity().runOnUiThread(new Runnable() {
 	            public void run() {
-	            	cordova.getActivity().getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+	            	cordova.getActivity().getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON|WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD|WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED|WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
 	            	System.out.println("Screen will not be kept on. Cancel KeepScreenOn");
 	            }
 	        });
