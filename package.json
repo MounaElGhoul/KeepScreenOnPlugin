@@ -1,0 +1,22 @@
+{
+  "name": "KeepScreenOnPlugin",
+  "version": "0.0.1",
+  "description": "cordova plugin so you can turn keep screen on Flag on and off from javascript",
+  "cordova": {
+    "id": "KeepScreenOnPlugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilmaribg/KeepScreenOnPlugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+  ],
+  "homepage": "https://github.com/wilmaribg/KeepScreenOnPlugin",
+  "author": "Wilmar Ibarguen",
+  "license": "MIT"
+}
