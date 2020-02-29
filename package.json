@@ -1,9 +1,9 @@
 {
-  "name": "KeepScreenOnPlugin",
+  "name": "keepscreenon-plugin",
   "version": "0.0.1",
   "description": "cordova plugin so you can turn keep screen on Flag on and off from javascript",
   "cordova": {
-    "id": "KeepScreenOnPlugin",
+    "id": "keepscreenon-plugin",
     "platforms": [
       "android"
     ]
