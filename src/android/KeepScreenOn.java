@@ -1,4 +1,4 @@
-package com.Kidobi.plugins;
+package com.MounaElGhoul.plugins;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;

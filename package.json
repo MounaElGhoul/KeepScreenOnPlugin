@@ -1,16 +1,16 @@
 {
-  "name": "com.Kidobi.plugins.KeepScreenOn",
+  "name": "com.mediamatrixdoo.keepscreenon",
   "version": "1.0.0",
   "description": "Function to turn on and off screen sleep timer",
   "cordova": {
-    "id": "com.Kidobi.plugins.KeepScreenOn",
+    "id": "com.mediamatrixdoo.keepscreenon",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wilmaribg/KeepScreenOnPlugin.git"
+    "url": "git+https://github.com/MounaElGhoul/KeepScreenOnPlugin.git"
   },
   "keywords": [
     "sleep screen lock Keep Screen On",
@@ -20,7 +20,11 @@
   "author": "Wilmar Ibarguen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wilmaribg/KeepScreenOnPlugin/issues"
+    "url": "https://github.com/MounaElGhoul/KeepScreenOnPlugin/issues"
   },
-  "homepage": "https://github.com/wilmaribg/KeepScreenOnPlugin#readme"
+  "homepage": "https://github.com/MounaElGhoul/KeepScreenOnPlugin#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
